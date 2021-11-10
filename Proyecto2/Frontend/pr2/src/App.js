@@ -1,16 +1,9 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import { Navbar } from './components/navbar';
 import { Administrador } from './components/administrador';
-//import { Aplicante } from './components/aplicante';
-//import { Coordinador } from './components/coordinador';
 import { Guest } from './components/guest';
-//import { Revisor } from './components/revisor';
 import { Login } from './components/login';
-//import { Usuarios } from './components/usuarios';
 import { Router, Switch, Route } from 'react-router-dom';
-//import { coordinator } from './components/views/addCoordinador';
-//import { reviewerX } from './components/views/addRevisor';
-//import { editAplicante } from './components/views/editarAplicante';
 import './App.css';
 
 import { createBrowserHistory } from 'history';

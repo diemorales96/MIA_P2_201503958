@@ -17,8 +17,8 @@ export class Login extends React.Component {
         return (
             <div className='container'>
                 <br />
-                <div className='card bg-info'>
-                                         <p>INICIO DE SESION</p>
+                <div >
+                                         <p>Login</p>
                     <br />
                     <div className='container'>
                         <div className='row'>
@@ -31,14 +31,14 @@ export class Login extends React.Component {
                         </div><br /><br />
                         <div className='row'>
                             <div className='col-sm'>
-                                <p>Password:</p>
+                                <p>Contraseña:</p>
                             </div>
                             <div className='col-9'>
                                 <input type='password' className="form-control" value={this.state.password} onChange={(e) => this.setState({ password: e.target.value })}></input>
                             </div>
                         </div>
                         <br />
-                        <button type="button" className="btn btn-warning" onClick={() => this.verificarUsuario()}>
+                        <button type="button" className="btn btn-primary" onClick={() => this.verificarUsuario()}>
                             Ingresar
                         </button>
                     </div>

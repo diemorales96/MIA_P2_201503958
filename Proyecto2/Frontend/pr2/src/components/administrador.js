@@ -19,39 +19,22 @@ export class Administrador extends React.Component {
             <div className='container'>
                 
                 <div className='card'>
-                    <h4>CARGAR XML</h4>
+                    <h4>APARTADO DE CARGA MASIVA</h4>
                     <div className='col-sm'>
                         <textarea cols='120' rows='15' value={this.state.masiva} onChange={(e) => { this.setState({ masiva: e.target.value }); }}></textarea>
                     </div>
                     <br />
                     <div>
-                        <button type='button' className='btn btn-success btn-outline-light col-6' onClick={() => this.cargaMasiva()}>CARGAR XML</button>
+                        <button type='button'  onClick={() => this.cargaMasiva()}>CARGAR XML</button>
                     </div>
                 </div>
 
 
                 <div className='col-sm'>
-                <div>
-                <Link to='/addcoordinator'>
-                <button type="button" class="btn btn-primary btn-lg btn-block">INGRESAR COORDINADOR</button>
-                </Link>
-                </div>
-
-                <div>
-                <Link to='/addRevisor'>
-                <button type="button" class="btn btn-secondary btn-lg btn-block">INGRESAR REVISOR</button>
-                </Link>
-                </div>
-
-                <div>
-                <Link to='/usuarios'>
-                <button type="button" class="btn btn-primary btn-lg btn-block">VER USUARIOS</button>
-                </Link>
-                </div>
 
                 <div>
                 <Link to='/'>
-                <button type="button" class="btn btn-warning btn-lg btn-block">Cerrar Sesion</button>
+                <button type="button" >Cerrar Sesion</button>
                 </Link>
                 </div>
                 
